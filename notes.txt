@@ -1,0 +1,17 @@
+React - JS library for building User Interfaces (components)
+    - use components to write reusable code 
+    - easy to work with in teams
+
+Next-Gen JavaScript
+    - Spread and rest operators (...)
+        - Spread: used to split up an array elements OR object properties
+            - ex: const newArray = [...oldArray, 1, 2] ==> created new array with the old array items and the two new items
+            - ex: const newObject = {...oldObject, newProp:5}
+        - Rest: used to merge a list of function arguments into an array    
+            - ex: function sortArgs(...args){return args.sort} ==> function recieve a list of arguments turned into an array
+    - Destructuring 
+        - Easily extract array elements or object properties and store them in variables 
+        - Array Destructuring (any variable)
+            - ex [a,b] = [''Hello','Max'] ==> assigns a to 'Hello' and b to 'Max'
+        - Object Destructuring (key value)
+            - {name} = {name:'Max', age:28} ==> assigns name to 'Max'
