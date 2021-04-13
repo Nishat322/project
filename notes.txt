@@ -15,3 +15,5 @@ Next-Gen JavaScript
             - ex [a,b] = [''Hello','Max'] ==> assigns a to 'Hello' and b to 'Max'
         - Object Destructuring (key value)
             - {name} = {name:'Max', age:28} ==> assigns name to 'Max'
+
+The Basics
